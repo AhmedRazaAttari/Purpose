@@ -1,0 +1,373 @@
+body{
+  font-family: Nunito,sans-serif;
+  line-height: 1.7;
+  color: #8492a6;
+}
+p{
+  color : #8492a6;
+}
+
+.navbar{
+  box-shadow: 2px 2px 7px 0px #dbd1d1;
+  background: white;
+}
+.NavLink_Style{
+  color: #253246;
+  font-size : 17px;
+  font-family : Gilroy;
+  padding : 6px;
+}
+.NavLink_Style:hover{
+  border-bottom: 3px solid #6e00ff;
+}
+
+.FirstSection{
+  height: 250px;
+  width: 300px;
+  padding: 5px;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.Services{
+  min-height: 350px;
+  max-height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Arc{
+  max-height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.SecondSection{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  max-height: auto;
+  margin-top: 80px;
+  padding-left: 6.5rem!important;
+  padding-right: 6.5rem!important;
+}
+.ThirdSection{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
+  min-height: 800px;
+  max-height: auto;
+  justify-content: center;
+  line-height: 30px;
+}
+.items div{
+  width: 240px;
+  margin-left: 15px;
+}
+.items{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: baseline;
+}
+.FourthSection{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+.LoginForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 40px;
+  max-width: 420px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 0px #dbd1d1;
+  background: white;
+  position: relative;
+}
+.LoginBtn_Design2{
+  color: #253246;
+  padding: 5px;
+  border-radius : 4px; 
+  border : 2px solid #6e00ff;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  font-family: Gilroy
+}
+.LoginBtn_Design2:hover{
+  background: #6e00ff;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+.LoginBtn_Design2::after{
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.SignupForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 40px;
+  max-width: 520px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 0px #dbd1d1;
+  background: white;
+  position: relative;
+}
+.Textinput_Design{
+  padding: 12px;
+  border: 1px solid rgb(235, 229, 229);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.Textinput_Design input{
+  outline: none;
+  border: none;
+  width: 76%;
+  margin-left: -20px;
+}
+.Textinput_Design:hover{
+  border: 1px solid skyblue;
+}
+.sixSection{
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 8%;
+  flex-wrap: wrap;
+
+}
+.unknown{
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 2px 2px 7px 0px #dbd1d1;
+}
+.unknown hr{
+  width: 85%;
+}
+.SevenSection{
+  /* max-height: 380px; */
+  background : #D7E6F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding : 30px;
+  margin-top: 10%;
+  padding-bottom: 50px;
+  margin-bottom: -60px;
+}
+.SubscribeInput{
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 50px;
+  width: 290px;
+  text-indent: 20px;
+  border: none;
+  outline: none;
+}
+#SubscribeBtn{
+  height: 50px;
+  width: 127px;
+  background: white;
+  border: none;
+  color: black;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  animation-delay: 2s;
+}
+#SubscribeBtn:hover{
+  background: rgb(209, 203, 203);
+}
+.EightSection{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  /* bottom: 13px; */
+  background: #2F466C;
+  /* color : white; */
+  padding-top: 25px;
+}
+.EightSection div a {
+  line-height: 1.2;
+  color : white
+}
+.EightSection div h5 {
+  /* margin-bottom: 25px; */
+  color : white;
+  font-size: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.DivHandle{
+  width: 50%;
+}
+.ArcHandle{
+  width: 50%;
+}
+.Arc p{
+  font-size: 20px; 
+  text-align : center;
+  font-weight: 600;
+}
+@media screen and (max-width: 650px) {
+  .PTagHandle p {
+    margin-top: -4px;
+  }
+  .SecondSection{
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+  }
+  .DivHandle{
+    width: 100%;
+  }
+  .ArcHandle{
+    width: 90%;
+  }
+}
+.fa-fire{
+  font-size: 28px;
+  color : blue
+}
+#ScrolltoTop{
+  color : white;
+  font-size: 32px;
+  z-index: 1;
+}
+.ScrolltoTop{
+  height: 60px;
+  width: 60px;
+  background: blueviolet;
+  position: fixed;
+  border-radius: 100%;
+  bottom: 4%;
+  right: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+#ChatBot{
+  position: fixed;
+  bottom: 15%;
+  left: 5%;
+  z-index: 1;
+}
+.ChatIcon{
+  height: 60px;
+  width: 60px;
+  background: lightcoral;
+  position: fixed;
+  border-radius: 100%;
+  bottom: 4%;
+  left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+@media screen and (max-width: 1100px) {
+  .DivHandle{
+    width: 80%;
+  }
+}
+
+
+.FourthDetailSec{
+  width: 300px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1120px) {
+  .FourthDetailSec{
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 813px) {
+  .items div{
+    width: 93%;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .me24Handle{
+    display: none;
+  }
+  .items{
+    justify-content: center;
+  }
+  .LoginForm{
+    padding: 20px;
+  }
+  .SignupForm{
+    padding: 20px;
+  }
+}
+
+.ForthSec_Handle{
+  width: 235px; 
+  display: flex;
+  flex-direction: column;
+  margin: 10px; 
+  border-radius: 10px;
+  box-shadow : 0px 2px 5px 0px #d5cdcd;
+}
+
+@media screen and (max-width: 490px) {
+  .ForthSec_Handle{
+    width: 285px;
+  }
+}
+
+.CokieBanner{
+  width: 100%;
+  height: 42px;
+  background: rgb(127, 161, 175);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
